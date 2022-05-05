@@ -1,0 +1,29 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#o"
+        },
+        "score": "nummc.math"
+      },
+      "range": 100000000
+    },
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#o"
+        },
+        "score": "nummc.math"
+      },
+      "range": -100000000
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#p"
+        },
+        "score": "nummc.math"
+      },
+      "range": {
+        "min": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#q"
+          },
+          "score": "nummc.math"
+        },
+        "max": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#q"
+          },
+          "score": "nummc.math"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#p"
+        },
+        "score": "nummc.math",
+        "scale": -1
+      },
+      "range": {
+        "min": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#q"
+          },
+          "score": "nummc.math"
+        },
+        "max": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#q"
+          },
+          "score": "nummc.math"
+        }
+      }
+    }
+  ]
+}
